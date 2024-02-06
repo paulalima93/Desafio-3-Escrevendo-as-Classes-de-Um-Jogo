@@ -13,7 +13,7 @@ class Hero{
         } else if (this.type === "monge"){
             attackname = "Chutes"
         } else if(this.type === "ninja"){
-            attackname = "Shurikens de Fogo"
+            attackname = "Shurikens de Fogo."
         }
         console.log (`O ${this.type}, ${this.name}, atacou usando ${attackname}.`)
     }
